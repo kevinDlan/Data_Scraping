@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+    </script>
+
+    <title>Data Scraping</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="title mt-4">
+            <h1>Qu'est ce que le Data Scraping ?</h1>
+        </div>
+        <div class="content mt-4">
+            <div class="row">
+                <div class="col-md-6 content-one">
+                    <h3 class="col-title">Définition</h3>
+                    <p class="def-content">
+                        De manière générale, le scraping de données fait référence à une technique grâce à laquelle un
+                        programme informatique extrait des données de la sortie générée à partir d'un autre programme.
+                        Le scraping de données se manifeste généralement dans l'extraction web, le processus
+                        d'utilisation d'une application pour extraire des informations importantes d'un site web.
+                    </p>
+                </div>
+                <div class="col-md-6  content-two">
+                    <h3 class="col-title">Fonctionnement</h3>
+                    <p class="def-content">
+                    <ul>
+                        <li>Pour commencer, l’élément de code utilisé pour extraire les informations, que nous appelons
+                            « bot de scraping », envoie une requête HTTP GET à un site web spécifique.</li><br>
+                        <li>
+                            Lorsque le site web répond, le scraper analyse le document HTML en recherchant un modèle
+                            particulier de données.
+                        </li><br>
+                        <li>
+                            Une fois les données extraites, il les convertit dans le format spécifique conçu par
+                            l’auteur du bot de scraping.
+                        </li><br>
+                        <li>
+                            <img class="fonct-img" src="fonctionnement.jpg" alt="">
+                        </li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+            <!-- First section end -->
+            <!-- Seconde Section -->
+            <div class="row">
+                <div class="col-md-6 content-one">
+                    <h3 class="col-title">Pourquoi Faire du Data scraping ?</h3>
+                    <p class="def-content">
+                        Généralement, les entreprises ne souhaitent pas que leur contenu unique soit téléchargé et
+                        réutilisé à des fins non autorisées. En conséquence, elles n’exposent pas toutes leurs données
+                        via une API consommable ou d’autres ressources facilement accessibles. Les bots de scraping, ou
+                        scrapers, cherchent, pour leur part, à obtenir des données sur les sites web, indépendamment des
+                        différentes tentatives de restriction d’accès. Il en résulte un jeu du chat et de la souris
+                        entre les scrapers et les différentes stratégies de protection de contenu, chaque partie
+                        essayant de déjouer les plans de l’autre.
+                    </p>
+                </div>
+                <div class="col-md-6  content-two">
+                    <h3 class="col-title">Quels sont ces Avantages ?</h3>
+                    <p class="def-content">
+                    <ul>
+                        <li>Le scraping permet d’extraire de l’information de manière automatisée et structurée pour la
+                            traiter ou l’afficher d’une manière que la source donnée ne permet pas</li><br>
+                        <li>
+                            Certains outils permettent l’extraction de manière spécialisée : ils permettent d’extraire
+                            la donnée d’un site en particulier
+                        </li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+            <!-- Second section end -->
+            <!-- Third section begin -->
+            <div class="row">
+                <div class="col-md-6 content-one">
+                    <h3 class="col-title">Quels sont ces Inconvenients </h3>
+                    <p class="def-content">
+                        Certains outils permettent l’extraction de manière spécialisée : ils permettent d’extraire la
+                        donnée d’un site en particulier
+                    </p>
+                    <p>
+                        Le grattage de contenu est une autre façon de comprendre ce qu’est le web scraping. C’est-à-dire
+                        le vol de contenu à grande échelle sur un certain site.
+                    </p>
+                </div>
+                <div class="col-md-6  content-two">
+                    <h3 class="col-title">Comment Protéger son contenu</h3>
+                    <p class="def-content">
+                    <ul>
+                        <li>Rate limiting des requêtes</li><br>
+                        <li>Modification du balisage HTML à intervalles réguliers </li><br>
+                        <li>Utilisation de CAPTCHA pour les utilisateurs à l’origine de nombreuses requêtes</li><br>
+                        <li>La seule façon d'arrêter totalement le web scraping est d'éviter de mettre du contenu sur un
+                            site web</li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+            <!-- Third section end -->
+        </div>
+    </div>
+</body>
+
+</html>

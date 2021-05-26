@@ -1,0 +1,23 @@
+.title{
+    border:solid 2px #ffa542;
+    padding: 5px;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.col-title{
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #ffa542;
+}
+
+.def-content{
+    padding-left: 5%;
+    text-align: #ffa542;
+}
+
+.fonct-img{
+    width: 90%;
+}
